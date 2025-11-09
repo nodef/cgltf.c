@@ -1,9 +1,22 @@
 # :diamond_shape_with_a_dot_inside: cgltf
-**Single-file/stb-style C glTF loader and writer**
+**Single-file/stb-style C glTF loader and writer**, by [Johannes Kuhlmann](https://github.com/jkuhlmann).
 
 [![Build Status](https://github.com/jkuhlmann/cgltf/workflows/build/badge.svg)](https://github.com/jkuhlmann/cgltf/actions)
 
 Used in: [bgfx](https://github.com/bkaradzic/bgfx), [Filament](https://github.com/google/filament), [gltfpack](https://github.com/zeux/meshoptimizer/tree/master/gltf), [raylib](https://github.com/raysan5/raylib), [Unigine](https://developer.unigine.com/en/docs/2.14.1/third_party?rlang=cpp#cgltf), and more!
+
+## Installation
+
+Run:
+```bash
+$ npm i cgltf.c
+```
+
+And then include `cgltf.h` as follows:
+```c
+#include "node_modules/cgltf.c/cgltf.h"
+#include "node_modules/cgltf.c/cgltf_write.h"  // If writing support is needed
+```
 
 ## Usage: Loading
 Loading from file:
@@ -163,3 +176,10 @@ Here's one way to build and run the test:
     ./test_all.py
 
 There is also a llvm-fuzz test in `fuzz/`. See http://llvm.org/docs/LibFuzzer.html for more information.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/cgltf.c)

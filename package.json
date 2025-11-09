@@ -1,0 +1,15 @@
+{
+  "name": "cgltf.c",
+  "version": "1.15.0",
+  "description": "Single-file glTF 2.0 loader and writer written in C99; Johannes Kuhlmann (2018).",
+  "keywords": ["c", "library", "gltf", "glTF", "loader", "writer", "3d", "graphics"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cgltf.c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/cgltf.c/issues"
+  },
+  "homepage": "https://github.com/nodef/cgltf.c#readme"
+}
