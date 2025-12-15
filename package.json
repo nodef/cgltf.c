@@ -1,0 +1,25 @@
+{
+  "name": "cgltf.c",
+  "version": "1.15.0",
+  "description": ":diamond_shape_with_a_dot_inside: Single-file glTF 2.0 loader and writer written in C99; Johannes Kuhlmann (2018).",
+  "keywords": [
+    "c",
+    "library",
+    "gltf",
+    "glTF",
+    "loader",
+    "writer",
+    "3d",
+    "graphics"
+  ],
+  "homepage": "https://github.com/nodef/cgltf.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/cgltf.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/cgltf.c.git"
+  },
+  "license": "MIT",
+  "main": "cgltf.h"
+}
